@@ -1,10 +1,26 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Ruby",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mainmod/item/RubyItem.java",
+          "src/main/resources/assets/main_mod/models/item/ruby.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.main_mod.ruby": "Ruby"
+    }
   },
   "foldersRoot": {
     "name": "~",
