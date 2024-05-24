@@ -94,6 +94,20 @@
           "src/main/resources/data/main_mod/advancements/firstgnomekill.json"
         ]
       }
+    },
+    {
+      "name": "Rubypickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubypickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mainmod/item/RubypickaxeItem.java",
+          "src/main/resources/assets/main_mod/models/item/rubypickaxe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -106,6 +120,7 @@
       "item.main_mod.gnome_spawn_egg": "Gnome Spawn Egg",
       "advancements.firstgnomekill.title": "F*CK THE GNOMES!",
       "entity.main_mod.gnome": "Gnome",
+      "item.main_mod.rubypickaxe": "Ruby Pickaxe",
       "advancements.firstgnomekill.descr": "Kill your first gnome"
     }
   },

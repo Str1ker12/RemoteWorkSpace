@@ -25,6 +25,8 @@ public class MainModModTabs {
 			tabData.accept(MainModModItems.GNOME_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(MainModModItems.GNOMECLOTH.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(MainModModItems.RUBYPICKAXE.get());
 		}
 	}
 }
