@@ -258,6 +258,20 @@
           "src/main/resources/data/main_mod/advancements/firstgnomekill.json"
         ]
       }
+    },
+    {
+      "name": "GnomeHat",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnome_hat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main_mod/models/item/gnome_hat_helmet.json",
+          "src/main/java/net/mcreator/mainmod/item/GnomeHatItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -281,6 +295,7 @@
       "item.main_mod.rubypickaxe": "Ruby Pickaxe",
       "block.main_mod.ruby_deepslateore": "Deepslate Ruby Ore",
       "advancements.firstgnomekill.descr": "Kill your first gnome",
+      "item.main_mod.gnome_hat_helmet": "Gnome Hat",
       "block.main_mod.ruby_block": "Ruby Block",
       "advancements.rubyfound.descr": "Acquire ruby\u0027s",
       "item.main_mod.gnomecloth": "Teared up gnome hat",

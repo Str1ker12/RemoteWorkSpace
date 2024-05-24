@@ -83,12 +83,6 @@ public class ModelGnome<T extends Entity> extends EntityModel<T> {
 	}
 
 	@Override
-	public void setupAnim(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
-			float headPitch) {
-
-	}
-
-	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay,
 			float red, float green, float blue, float alpha) {
 		linkervoet.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
@@ -97,5 +91,13 @@ public class ModelGnome<T extends Entity> extends EntityModel<T> {
 		hoed.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		linkerarm.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		rechterarm.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+	}
+
+	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
+			float headPitch) {
+		this.rechterarm.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.linkerarm.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
+		this.rechtervoet.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
+		this.linkervoet.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
 	}
 }

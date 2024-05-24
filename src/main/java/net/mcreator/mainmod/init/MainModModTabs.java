@@ -25,6 +25,7 @@ public class MainModModTabs {
 			tabData.accept(MainModModBlocks.RUBY_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(MainModModItems.RUBYSWORD.get());
+			tabData.accept(MainModModItems.GNOME_HAT_HELMET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(MainModModItems.GNOME_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

@@ -9,12 +9,14 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.mainmod.client.model.Modelgnomehat;
 import net.mcreator.mainmod.client.model.ModelGnome;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class MainModModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelgnomehat.LAYER_LOCATION, Modelgnomehat::createBodyLayer);
 		event.registerLayerDefinition(ModelGnome.LAYER_LOCATION, ModelGnome::createBodyLayer);
 	}
 }

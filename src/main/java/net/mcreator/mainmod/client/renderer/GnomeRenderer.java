@@ -31,7 +31,7 @@ public class GnomeRenderer extends MobRenderer<GnomeEntity, ModelGnome<GnomeEnti
 
 	@Override
 	protected void scale(GnomeEntity entity, PoseStack poseStack, float f) {
-		poseStack.scale(10f, 10f, 10f);
+		poseStack.scale(4f, 4f, 4f);
 	}
 
 	@Override
