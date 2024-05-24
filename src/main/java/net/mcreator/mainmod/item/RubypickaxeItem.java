@@ -17,7 +17,7 @@ public class RubypickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 10f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -29,7 +29,7 @@ public class RubypickaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 16;
 			}
 
 			public Ingredient getRepairIngredient() {

@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "main_mod:block/emerald_ore",
-    "up": "main_mod:block/emerald_ore",
-    "north": "main_mod:block/emerald_ore",
-    "east": "main_mod:block/emerald_ore",
-    "south": "main_mod:block/emerald_ore",
-    "west": "main_mod:block/emerald_ore",
-    "particle": "main_mod:block/emerald_ore"
+    "down": "main_mod:block/ruby_ore",
+    "up": "main_mod:block/ruby_ore",
+    "north": "main_mod:block/ruby_ore",
+    "east": "main_mod:block/ruby_ore",
+    "south": "main_mod:block/ruby_ore",
+    "west": "main_mod:block/ruby_ore",
+    "particle": "main_mod:block/ruby_ore"
   },
   "render_type": "solid"
 }

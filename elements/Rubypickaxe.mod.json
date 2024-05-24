@@ -16,9 +16,9 @@
       "value": "TOOLS"
     },
     "harvestLevel": 5,
-    "efficiency": 4.0,
+    "efficiency": 10.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
+    "enchantability": 16,
     "damageVsEntity": 4.0,
     "usageCount": 2300,
     "blocksAffected": [],

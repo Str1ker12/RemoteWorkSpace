@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class RubyBlockBlock extends Block {
 	public RubyBlockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.METAL).strength(5f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.METAL).strength(5f, 1f));
 	}
 
 	@Override
