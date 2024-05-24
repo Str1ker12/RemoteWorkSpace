@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "main_mod:block/deepslate_emerald_ore",
-    "up": "main_mod:block/deepslate_emerald_ore",
-    "north": "main_mod:block/deepslate_emerald_ore",
-    "east": "main_mod:block/deepslate_emerald_ore",
-    "south": "main_mod:block/deepslate_emerald_ore",
-    "west": "main_mod:block/deepslate_emerald_ore",
-    "particle": "main_mod:block/deepslate_emerald_ore"
+    "down": "main_mod:block/deepslate_ruby_ore",
+    "up": "main_mod:block/deepslate_ruby_ore",
+    "north": "main_mod:block/deepslate_ruby_ore",
+    "east": "main_mod:block/deepslate_ruby_ore",
+    "south": "main_mod:block/deepslate_ruby_ore",
+    "west": "main_mod:block/deepslate_ruby_ore",
+    "particle": "main_mod:block/deepslate_ruby_ore"
   },
   "render_type": "solid"
 }

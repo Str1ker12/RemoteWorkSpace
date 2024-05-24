@@ -2,12 +2,12 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "deepslate_emerald_ore",
-    "textureTop": "deepslate_emerald_ore",
-    "textureLeft": "deepslate_emerald_ore",
-    "textureFront": "deepslate_emerald_ore",
-    "textureRight": "deepslate_emerald_ore",
-    "textureBack": "deepslate_emerald_ore",
+    "texture": "deepslate_ruby_ore",
+    "textureTop": "deepslate_ruby_ore",
+    "textureLeft": "deepslate_ruby_ore",
+    "textureFront": "deepslate_ruby_ore",
+    "textureRight": "deepslate_ruby_ore",
+    "textureBack": "deepslate_ruby_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -37,7 +37,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 0.95,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,

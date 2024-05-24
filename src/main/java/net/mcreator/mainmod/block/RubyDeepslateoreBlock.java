@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class RubyDeepslateoreBlock extends Block {
 	public RubyDeepslateoreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.DEEPSLATE).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.DEEPSLATE).strength(0.95f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
