@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "main_mod:block/emerald_block",
-    "up": "main_mod:block/emerald_block",
-    "north": "main_mod:block/emerald_block",
-    "east": "main_mod:block/emerald_block",
-    "south": "main_mod:block/emerald_block",
-    "west": "main_mod:block/emerald_block",
-    "particle": "main_mod:block/emerald_block"
+    "down": "main_mod:block/edsa",
+    "up": "main_mod:block/edsa",
+    "north": "main_mod:block/edsa",
+    "east": "main_mod:block/edsa",
+    "south": "main_mod:block/edsa",
+    "west": "main_mod:block/edsa",
+    "particle": "main_mod:block/edsa"
   },
   "render_type": "solid"
 }

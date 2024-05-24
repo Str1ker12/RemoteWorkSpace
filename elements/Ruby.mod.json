@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "emerald",
+    "texture": "sda",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
     "name": "Ruby",
-    "rarity": "EPIC",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "MATERIALS"
     },

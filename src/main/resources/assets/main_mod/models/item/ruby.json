@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "main_mod:item/emerald"
+    "layer0": "main_mod:item/sda"
   }
 }

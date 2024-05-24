@@ -1,6 +1,16 @@
 package net.mcreator.mainmod.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
+
+import net.mcreator.mainmod.init.MainModModItems;
 
 public class GnomeEntityDiesProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -12,7 +22,7 @@ public class GnomeEntityDiesProcedure {
 			_level.addFreshEntity(entityToSpawn);
 		}
 		if (entity instanceof ServerPlayer _player) {
-			Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("main_mod:deleted_mod_element"));
+			Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("main_mod:firstgnomekill"));
 			AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 			if (!_ap.isDone()) {
 				for (String criteria : _ap.getRemainingCriteria())

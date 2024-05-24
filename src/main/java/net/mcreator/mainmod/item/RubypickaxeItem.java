@@ -1,7 +1,13 @@
 
 package net.mcreator.mainmod.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.mainmod.init.MainModModItems;
 
 public class RubypickaxeItem extends PickaxeItem {
 	public RubypickaxeItem() {
@@ -19,7 +25,7 @@ public class RubypickaxeItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 1;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {
@@ -27,7 +33,7 @@ public class RubypickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(MainModModItems.RUBY.get()));
 			}
 		}, 1, -3f, new Item.Properties());
 	}

@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "main_mod:deserttower",
+      "structure": "main_mod:water_shrine",
       "weight": 1
     }
   ],
@@ -9,6 +9,6 @@
     "type": "minecraft:random_spread",
     "spacing": 5,
     "separation": 3,
-    "salt": 2057068081
+    "salt": 8002647
   }
 }
