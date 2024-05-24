@@ -1,3 +1,10 @@
 {
-  "item.main_mod.ruby": "Ruby"
+  "block.main_mod.ruby_block": "Ruby Block",
+  "advancements.rubyfound.title": "Ruby\u0027s!",
+  "item.main_mod.ruby": "Ruby",
+  "advancements.rubyfound.descr": "Acquire ruby\u0027s",
+  "item.main_mod.raw_ruby_ore": "Raw Ruby Ore",
+  "block.main_mod.rubyore": "Ruby",
+  "item.main_mod.rubysword": "Ruby Sword",
+  "block.main_mod.ruby_deepslateore": "Deepslate Ruby Ore"
 }

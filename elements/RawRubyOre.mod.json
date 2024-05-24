@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "emerald",
+    "texture": "raw_ruby_ore",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Ruby",
+    "name": "Raw Ruby Ore",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "MATERIALS"

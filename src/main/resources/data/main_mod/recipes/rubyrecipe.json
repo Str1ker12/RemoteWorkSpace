@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "main_mod:ruby_block"
+    }
+  },
+  "result": {
+    "item": "main_mod:ruby",
+    "count": 9
+  }
+}

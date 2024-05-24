@@ -17,7 +17,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.mainmod.init.MainModModTabs;
 import net.mcreator.mainmod.init.MainModModItems;
+import net.mcreator.mainmod.init.MainModModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -39,7 +41,11 @@ public class MainModMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		MainModModBlocks.REGISTRY.register(bus);
+
 		MainModModItems.REGISTRY.register(bus);
+
+		MainModModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

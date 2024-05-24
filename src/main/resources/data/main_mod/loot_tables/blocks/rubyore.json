@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "main_mod:blocks/rubyore",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "main_mod:raw_ruby_ore"
+        }
+      ]
+    }
+  ]
+}
