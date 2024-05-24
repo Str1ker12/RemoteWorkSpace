@@ -1,11 +1,23 @@
 
 package net.mcreator.mainmod.client.renderer;
 
-public class GnomeRenderer extends MobRenderer<GnomeEntity, ModelGnome<GnomeEntity>> {
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.client.renderer.entity.layers.RenderLayer;
+import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.LivingEntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.mcreator.mainmod.entity.GnomeEntity;
+import net.mcreator.mainmod.client.model.ModelGnome;
+
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.PoseStack;
+
+public class GnomeRenderer extends MobRenderer<GnomeEntity, ModelGnome<GnomeEntity>> {
 	public GnomeRenderer(EntityRendererProvider.Context context) {
 		super(context, new ModelGnome(context.bakeLayer(ModelGnome.LAYER_LOCATION)), 1f);
-
 		this.addLayer(new RenderLayer<GnomeEntity, ModelGnome<GnomeEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("main_mod:textures/entities/gnome_texture.png");
 
@@ -26,5 +38,4 @@ public class GnomeRenderer extends MobRenderer<GnomeEntity, ModelGnome<GnomeEnti
 	public ResourceLocation getTextureLocation(GnomeEntity entity) {
 		return new ResourceLocation("main_mod:textures/entities/gnome_texture.png");
 	}
-
 }

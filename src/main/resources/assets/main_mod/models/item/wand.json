@@ -1,6 +1,6 @@
 {
-  "parent": "main_mod:custom/blaze_wand",
+  "parent": "item/handheld",
   "textures": {
-    "particle": "main_mod:item/blaze_wand"
+    "layer0": "main_mod:item/blaze_wand"
   }
 }

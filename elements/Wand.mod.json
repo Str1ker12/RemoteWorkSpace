@@ -3,23 +3,23 @@
   "_type": "tool",
   "definition": {
     "toolType": "Special",
-    "renderType": 1,
+    "renderType": 0,
     "blockingRenderType": 0,
     "texture": "blaze_wand",
-    "customModelName": "blaze_wand:wands",
+    "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Wand",
+    "name": "Ruby Wand",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "COMBAT"
     },
     "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
+    "efficiency": 0.0,
+    "attackSpeed": 0.5,
+    "enchantability": 0,
+    "damageVsEntity": 0.0,
     "usageCount": 100,
     "blocksAffected": [],
     "glowCondition": {
@@ -31,6 +31,9 @@
     "damageOnCrafting": false,
     "onRightClickedInAir": {
       "name": "FireCharge"
+    },
+    "onRightClickedOnBlock": {
+      "name": "TurnBlockIntoLava"
     }
   }
 }

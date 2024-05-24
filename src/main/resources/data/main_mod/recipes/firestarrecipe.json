@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "main_mod:ruby_block"
+    },
+    "b": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "main_mod:firestar",
+    "count": 1
+  }
+}

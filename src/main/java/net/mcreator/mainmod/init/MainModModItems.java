@@ -21,6 +21,7 @@ import net.mcreator.mainmod.item.RubyItem;
 import net.mcreator.mainmod.item.RawRubyOreItem;
 import net.mcreator.mainmod.item.GnomeclothItem;
 import net.mcreator.mainmod.item.GnomeHatItem;
+import net.mcreator.mainmod.item.FirestarItem;
 import net.mcreator.mainmod.MainModMod;
 
 public class MainModModItems {
@@ -40,6 +41,7 @@ public class MainModModItems {
 	public static final RegistryObject<Item> RUBYARMOR_LEGGINGS = REGISTRY.register("rubyarmor_leggings", () -> new RubyarmorItem.Leggings());
 	public static final RegistryObject<Item> RUBYARMOR_BOOTS = REGISTRY.register("rubyarmor_boots", () -> new RubyarmorItem.Boots());
 	public static final RegistryObject<Item> WAND = REGISTRY.register("wand", () -> new WandItem());
+	public static final RegistryObject<Item> FIRESTAR = REGISTRY.register("firestar", () -> new FirestarItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
