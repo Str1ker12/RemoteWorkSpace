@@ -17,7 +17,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class GnomeRenderer extends MobRenderer<GnomeEntity, ModelGnome<GnomeEntity>> {
 	public GnomeRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelGnome(context.bakeLayer(ModelGnome.LAYER_LOCATION)), 0.5f);
+		super(context, new ModelGnome(context.bakeLayer(ModelGnome.LAYER_LOCATION)), 1f);
 		this.addLayer(new RenderLayer<GnomeEntity, ModelGnome<GnomeEntity>>(this) {
 			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("main_mod:textures/entities/gnome_texture1.png");
 
@@ -27,6 +27,11 @@ public class GnomeRenderer extends MobRenderer<GnomeEntity, ModelGnome<GnomeEnti
 				this.getParentModel().renderToBuffer(poseStack, vertexConsumer, light, LivingEntityRenderer.getOverlayCoords(entity, 0), 1, 1, 1, 1);
 			}
 		});
+	}
+
+	@Override
+	protected void scale(GnomeEntity entity, PoseStack poseStack, float f) {
+		poseStack.scale(10f, 10f, 10f);
 	}
 
 	@Override
