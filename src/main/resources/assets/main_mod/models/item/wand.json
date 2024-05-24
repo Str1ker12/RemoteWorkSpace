@@ -1,0 +1,6 @@
+{
+  "parent": "main_mod:custom/blaze_wand",
+  "textures": {
+    "particle": "main_mod:item/blaze_wand"
+  }
+}

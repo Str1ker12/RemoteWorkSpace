@@ -23,7 +23,7 @@ import net.mcreator.mainmod.MainModMod;
 public class MainModModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, MainModMod.MODID);
 	public static final RegistryObject<EntityType<GnomeEntity>> GNOME = register("gnome",
-			EntityType.Builder.<GnomeEntity>of(GnomeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GnomeEntity::new)
+			EntityType.Builder.<GnomeEntity>of(GnomeEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GnomeEntity::new)
 
 					.sized(0.6f, 1.8f));
 

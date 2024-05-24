@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {},
+      "name": "default"
+    },
+    "wands": {
+      "map": {},
+      "name": "wands"
+    }
+  }
+}
