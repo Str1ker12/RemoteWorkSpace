@@ -29,7 +29,6 @@ public class MainModModTabs {
 			tabData.accept(MainModModItems.RUBYARMOR_CHESTPLATE.get());
 			tabData.accept(MainModModItems.RUBYARMOR_LEGGINGS.get());
 			tabData.accept(MainModModItems.RUBYARMOR_BOOTS.get());
-			tabData.accept(MainModModItems.GNOME_HAT_HELMET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(MainModModItems.GNOME_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
