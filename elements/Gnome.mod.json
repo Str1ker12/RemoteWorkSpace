@@ -16,7 +16,7 @@
       "fixedValue": false
     },
     "visualScale": {
-      "fixedValue": 1.0
+      "fixedValue": 3.0
     },
     "boundingBoxScale": {
       "fixedValue": 1.0
@@ -64,7 +64,7 @@
     "attackStrength": 2,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.6,
+    "movementSpeed": 0.4,
     "stepHeight": 0.6,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
@@ -131,7 +131,7 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 20,
-    "mobSpawningType": "ambient",
+    "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 6,
     "maxNumberOfMobsPerGroup": 10,
     "restrictionBiomes": [
