@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "main_mod:ruby_deepslateore",
-    "main_mod:rubyore"
+    "main_mod:rubyore",
+    "main_mod:ruby_deepslateore"
   ]
 }

@@ -3,8 +3,8 @@ package net.mcreator.mainmod.item;
 
 import net.minecraft.world.entity.ai.attributes.Attributes;
 
-public class RubyswordItem extends SwordItem {
-	public RubyswordItem() {
+public class RubypickaxeItem extends PickaxeItem {
+	public RubypickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 2300;
@@ -15,20 +15,20 @@ public class RubyswordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 5f;
+				return 2f;
 			}
 
 			public int getLevel() {
-				return 0;
+				return 1;
 			}
 
 			public int getEnchantmentValue() {
-				return 16;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(MainModModItems.RUBY.get()));
+				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties().fireResistant());
+		}, 1, -3f, new Item.Properties());
 	}
 }

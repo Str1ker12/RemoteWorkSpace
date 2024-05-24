@@ -35,8 +35,8 @@
   "rewards": {
     "experience": 1000,
     "recipes": [
-      "main_mod:rawrubytoruby",
-      "main_mod:rubyswordrecipe"
+      "main_mod:deleted_mod_element",
+      "main_mod:deleted_mod_element"
     ]
   },
   "parent": "minecraft:story/mine_diamond"

@@ -17,9 +17,9 @@ import net.mcreator.mainmod.MainModMod;
 
 public class MainModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MainModMod.MODID);
+	public static final RegistryObject<Block> RUBY_DEEPSLATEORE = REGISTRY.register("ruby_deepslateore", () -> new RubyDeepslateoreBlock());
 	public static final RegistryObject<Block> RUBY_BLOCK = REGISTRY.register("ruby_block", () -> new RubyBlockBlock());
 	public static final RegistryObject<Block> RUBYORE = REGISTRY.register("rubyore", () -> new RubyoreBlock());
-	public static final RegistryObject<Block> RUBY_DEEPSLATEORE = REGISTRY.register("ruby_deepslateore", () -> new RubyDeepslateoreBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

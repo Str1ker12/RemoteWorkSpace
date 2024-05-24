@@ -3,7 +3,6 @@
     {
       "name": "Ruby",
       "type": "item",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby",
@@ -11,6 +10,53 @@
         "files": [
           "src/main/java/net/mcreator/mainmod/item/RubyItem.java",
           "src/main/resources/assets/main_mod/models/item/ruby.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubyrecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/main_mod/recipes/rubyrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RawRubyOre",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main_mod/models/item/raw_ruby_ore.json",
+          "src/main/java/net/mcreator/mainmod/item/RawRubyOreItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyDeepslateore",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_deepslateore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main_mod/models/block/ruby_deepslateore.json",
+          "src/main/resources/assets/main_mod/blockstates/ruby_deepslateore.json",
+          "src/main/resources/assets/main_mod/models/item/ruby_deepslateore.json",
+          "src/main/resources/data/main_mod/forge/biome_modifier/ruby_deepslateore_biome_modifier.json",
+          "src/main/resources/data/main_mod/worldgen/placed_feature/ruby_deepslateore.json",
+          "src/main/java/net/mcreator/mainmod/block/RubyDeepslateoreBlock.java",
+          "src/main/resources/data/main_mod/worldgen/configured_feature/ruby_deepslateore.json",
+          "src/main/resources/data/main_mod/loot_tables/blocks/ruby_deepslateore.json"
         ]
       }
     },
@@ -52,22 +98,28 @@
       }
     },
     {
-      "name": "RubyDeepslateore",
-      "type": "block",
-      "sortid": 4,
+      "name": "Rubyfound",
+      "type": "achievement",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ruby_deepslateore",
+      "registry_name": "rubyfound",
       "metadata": {
         "files": [
-          "src/main/resources/assets/main_mod/models/block/ruby_deepslateore.json",
-          "src/main/resources/assets/main_mod/blockstates/ruby_deepslateore.json",
-          "src/main/resources/assets/main_mod/models/item/ruby_deepslateore.json",
-          "src/main/resources/data/main_mod/forge/biome_modifier/ruby_deepslateore_biome_modifier.json",
-          "src/main/resources/data/main_mod/worldgen/placed_feature/ruby_deepslateore.json",
-          "src/main/java/net/mcreator/mainmod/block/RubyDeepslateoreBlock.java",
-          "src/main/resources/data/main_mod/worldgen/configured_feature/ruby_deepslateore.json",
-          "src/main/resources/data/main_mod/loot_tables/blocks/ruby_deepslateore.json"
+          "src/main/resources/data/main_mod/advancements/rubyfound.json"
+        ]
+      }
+    },
+    {
+      "name": "Rawrubytoruby",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawrubytoruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/main_mod/recipes/rawrubytoruby.json"
         ]
       }
     },
@@ -86,20 +138,6 @@
       }
     },
     {
-      "name": "RawRubyOre",
-      "type": "item",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_ruby_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/main_mod/models/item/raw_ruby_ore.json",
-          "src/main/java/net/mcreator/mainmod/item/RawRubyOreItem.java"
-        ]
-      }
-    },
-    {
       "name": "Rubyswordrecipe",
       "type": "recipe",
       "sortid": 7,
@@ -109,32 +147,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/main_mod/recipes/rubyswordrecipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Rawrubytoruby",
-      "type": "recipe",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rawrubytoruby",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/main_mod/recipes/rawrubytoruby.json"
-        ]
-      }
-    },
-    {
-      "name": "Rubyfound",
-      "type": "achievement",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rubyfound",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/main_mod/advancements/rubyfound.json"
         ]
       }
     },
@@ -152,15 +164,97 @@
       }
     },
     {
-      "name": "Rubyrecipe",
-      "type": "recipe",
-      "sortid": 11,
+      "name": "Gnomecloth",
+      "type": "item",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rubyrecipe",
+      "registry_name": "gnomecloth",
       "metadata": {
         "files": [
-          "src/main/resources/data/main_mod/recipes/rubyrecipe.json"
+          "src/main/resources/assets/main_mod/models/item/gnomecloth.json",
+          "src/main/java/net/mcreator/mainmod/item/GnomeclothItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Deserttower",
+      "type": "structure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deserttower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/main_mod/worldgen/structure/deserttower.json",
+          "src/main/resources/data/main_mod/worldgen/structure_set/deserttower.json",
+          "src/main/resources/data/main_mod/worldgen/template_pool/deserttower.json"
+        ]
+      }
+    },
+    {
+      "name": "Gnome",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mainmod/entity/GnomeEntity.java",
+          "src/main/java/net/mcreator/mainmod/client/renderer/GnomeRenderer.java",
+          "src/main/resources/data/main_mod/forge/biome_modifier/gnome_biome_modifier.json",
+          "src/main/resources/assets/main_mod/models/item/gnome_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GnomeEntityDies",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnome_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mainmod/procedures/GnomeEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rubypickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubypickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main_mod/models/item/rubypickaxe.json",
+          "src/main/java/net/mcreator/mainmod/item/RubypickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Firstgnomekill",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firstgnomekill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/main_mod/advancements/firstgnomekill.json"
         ]
       }
     }
@@ -169,24 +263,17 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_diamond_tool": [
-      "~CUSTOM:RubyDeepslateore",
-      "~CUSTOM:Rubyore"
+      "~CUSTOM:Rubyore",
+      "~CUSTOM:RubyDeepslateore"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:RubyDeepslateore",
-      "~CUSTOM:Rubyore"
+      "~CUSTOM:Rubyore",
+      "~CUSTOM:RubyDeepslateore"
     ]
   },
   "language_map": {
     "en_us": {
-      "block.main_mod.ruby_block": "Ruby Block",
-      "advancements.rubyfound.title": "Ruby\u0027s!",
-      "item.main_mod.ruby": "Ruby",
-      "advancements.rubyfound.descr": "Acquire ruby\u0027s",
-      "item.main_mod.raw_ruby_ore": "Raw Ruby Ore",
-      "block.main_mod.rubyore": "Ruby",
-      "item.main_mod.rubysword": "Ruby Sword",
-      "block.main_mod.ruby_deepslateore": "Deepslate Ruby Ore"
+      "item.main_mod.ruby": "Ruby"
     }
   },
   "foldersRoot": {

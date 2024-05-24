@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mainmod.init.MainModModTabs;
 import net.mcreator.mainmod.init.MainModModItems;
+import net.mcreator.mainmod.init.MainModModEntities;
 import net.mcreator.mainmod.init.MainModModBlocks;
 
 import java.util.function.Supplier;
@@ -44,6 +45,7 @@ public class MainModMod {
 		MainModModBlocks.REGISTRY.register(bus);
 
 		MainModModItems.REGISTRY.register(bus);
+		MainModModEntities.REGISTRY.register(bus);
 
 		MainModModTabs.REGISTRY.register(bus);
 

@@ -25,12 +25,17 @@ public class MainModModTabs {
 			tabData.accept(MainModModBlocks.RUBY_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(MainModModItems.RUBYSWORD.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(MainModModItems.GNOME_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(MainModModItems.RUBY.get());
+			tabData.accept(MainModModItems.GNOMECLOTH.get());
 			tabData.accept(MainModModItems.RAW_RUBY_ORE.get());
+			tabData.accept(MainModModItems.RUBY.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MainModModBlocks.RUBYORE.get().asItem());
 			tabData.accept(MainModModBlocks.RUBY_DEEPSLATEORE.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(MainModModItems.RUBYPICKAXE.get());
 		}
 	}
 }
