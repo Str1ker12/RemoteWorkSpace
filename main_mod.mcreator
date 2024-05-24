@@ -202,10 +202,10 @@
       "registry_name": "gnome",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mainmod/entity/GnomeEntity.java",
-          "src/main/java/net/mcreator/mainmod/client/renderer/GnomeRenderer.java",
           "src/main/resources/data/main_mod/forge/biome_modifier/gnome_biome_modifier.json",
-          "src/main/resources/assets/main_mod/models/item/gnome_spawn_egg.json"
+          "src/main/resources/assets/main_mod/models/item/gnome_spawn_egg.json",
+          "src/main/java/net/mcreator/mainmod/entity/GnomeEntity.java",
+          "src/main/java/net/mcreator/mainmod/client/renderer/GnomeRenderer.java"
         ]
       }
     },
@@ -260,6 +260,20 @@
       }
     },
     {
+      "name": "GnomeHat",
+      "type": "armor",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnome_hat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main_mod/models/item/gnome_hat_helmet.json",
+          "src/main/java/net/mcreator/mainmod/item/GnomeHatItem.java"
+        ]
+      }
+    },
+    {
       "name": "Rubyarmor",
       "type": "armor",
       "sortid": 13,
@@ -268,11 +282,11 @@
       "registry_name": "rubyarmor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/main_mod/models/item/rubyarmor_leggings.json",
-          "src/main/resources/assets/main_mod/models/item/rubyarmor_boots.json",
-          "src/main/resources/assets/main_mod/models/item/rubyarmor_helmet.json",
+          "src/main/resources/assets/main_mod/models/item/rubyarmor_chestplate.json",
           "src/main/java/net/mcreator/mainmod/item/RubyarmorItem.java",
-          "src/main/resources/assets/main_mod/models/item/rubyarmor_chestplate.json"
+          "src/main/resources/assets/main_mod/models/item/rubyarmor_leggings.json",
+          "src/main/resources/assets/main_mod/models/item/rubyarmor_helmet.json",
+          "src/main/resources/assets/main_mod/models/item/rubyarmor_boots.json"
         ]
       }
     }
@@ -292,18 +306,14 @@
   "language_map": {
     "en_us": {
       "advancements.rubyfound.title": "Ruby\u0027s!",
-      "item.main_mod.rubyarmor_boots": "Ruby Boots",
       "item.main_mod.ruby": "Ruby",
       "item.main_mod.gnome_spawn_egg": "Gnome Spawn Egg",
       "advancements.firstgnomekill.title": "F*CK THE GNOMES!",
       "item.main_mod.rubypickaxe": "Ruby Pickaxe",
-      "item.main_mod.rubyarmor_leggings": "Ruby Leggings",
-      "item.main_mod.rubyarmor_chestplate": "Ruby Chestplate",
       "block.main_mod.ruby_deepslateore": "Deepslate Ruby Ore",
       "advancements.firstgnomekill.descr": "Kill your first gnome",
       "block.main_mod.ruby_block": "Ruby Block",
       "advancements.rubyfound.descr": "Acquire ruby\u0027s",
-      "item.main_mod.rubyarmor_helmet": "Ruby Helmet",
       "item.main_mod.gnomecloth": "Teared up gnome hat",
       "item.main_mod.raw_ruby_ore": "Raw Ruby Ore",
       "entity.main_mod.gnome": "Gnome",

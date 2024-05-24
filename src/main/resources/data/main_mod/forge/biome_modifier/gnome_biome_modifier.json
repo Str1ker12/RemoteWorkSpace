@@ -1,10 +1,12 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "mushroom_fields",
+  "biomes": {
+    "type": "forge:any"
+  },
   "spawners": {
     "type": "main_mod:gnome",
     "weight": 20,
-    "minCount": 6,
-    "maxCount": 10
+    "minCount": 4,
+    "maxCount": 900
   }
 }
