@@ -67,7 +67,7 @@ public abstract class RubyarmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "main_mod:textures/models/armor/ruby_armor__layer_1.png";
+			return "main_mod:textures/models/armor/gnomehat_layer_1.png";
 		}
 	}
 
@@ -78,7 +78,7 @@ public abstract class RubyarmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "main_mod:textures/models/armor/ruby_armor__layer_1.png";
+			return "main_mod:textures/models/armor/gnomehat_layer_1.png";
 		}
 	}
 
@@ -89,7 +89,7 @@ public abstract class RubyarmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "main_mod:textures/models/armor/ruby_armor__layer_2.png";
+			return "main_mod:textures/models/armor/gnomehat_layer_2.png";
 		}
 	}
 
@@ -100,7 +100,7 @@ public abstract class RubyarmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "main_mod:textures/models/armor/ruby_armor__layer_1.png";
+			return "main_mod:textures/models/armor/gnomehat_layer_1.png";
 		}
 	}
 }
