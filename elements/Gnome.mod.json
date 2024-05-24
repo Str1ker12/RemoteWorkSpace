@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Gnome",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "gnome_texture1.png",
+    "mobModelName": "ModelGnome",
+    "mobModelTexture": "gnome_texture.png",
     "transparentModelCondition": {
       "fixedValue": false
     },

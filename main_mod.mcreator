@@ -9,8 +9,8 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mainmod/item/RubyItem.java",
-          "src/main/resources/assets/main_mod/models/item/ruby.json"
+          "src/main/resources/assets/main_mod/models/item/ruby.json",
+          "src/main/java/net/mcreator/mainmod/item/RubyItem.java"
         ]
       }
     },
@@ -36,8 +36,8 @@
       "registry_name": "raw_ruby_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/main_mod/models/item/raw_ruby_ore.json",
-          "src/main/java/net/mcreator/mainmod/item/RawRubyOreItem.java"
+          "src/main/java/net/mcreator/mainmod/item/RawRubyOreItem.java",
+          "src/main/resources/assets/main_mod/models/item/raw_ruby_ore.json"
         ]
       }
     },
@@ -50,14 +50,14 @@
       "registry_name": "ruby_deepslateore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/main_mod/models/block/ruby_deepslateore.json",
-          "src/main/resources/assets/main_mod/blockstates/ruby_deepslateore.json",
           "src/main/resources/assets/main_mod/models/item/ruby_deepslateore.json",
-          "src/main/resources/data/main_mod/forge/biome_modifier/ruby_deepslateore_biome_modifier.json",
-          "src/main/resources/data/main_mod/worldgen/placed_feature/ruby_deepslateore.json",
           "src/main/java/net/mcreator/mainmod/block/RubyDeepslateoreBlock.java",
+          "src/main/resources/assets/main_mod/blockstates/ruby_deepslateore.json",
+          "src/main/resources/data/main_mod/worldgen/placed_feature/ruby_deepslateore.json",
+          "src/main/resources/data/main_mod/forge/biome_modifier/ruby_deepslateore_biome_modifier.json",
+          "src/main/resources/data/main_mod/loot_tables/blocks/ruby_deepslateore.json",
           "src/main/resources/data/main_mod/worldgen/configured_feature/ruby_deepslateore.json",
-          "src/main/resources/data/main_mod/loot_tables/blocks/ruby_deepslateore.json"
+          "src/main/resources/assets/main_mod/models/block/ruby_deepslateore.json"
         ]
       }
     },
@@ -70,11 +70,11 @@
       "registry_name": "ruby_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/main_mod/blockstates/ruby_block.json",
+          "src/main/resources/data/main_mod/loot_tables/blocks/ruby_block.json",
           "src/main/java/net/mcreator/mainmod/block/RubyBlockBlock.java",
           "src/main/resources/assets/main_mod/models/item/ruby_block.json",
-          "src/main/resources/assets/main_mod/models/block/ruby_block.json",
-          "src/main/resources/data/main_mod/loot_tables/blocks/ruby_block.json"
+          "src/main/resources/assets/main_mod/blockstates/ruby_block.json",
+          "src/main/resources/assets/main_mod/models/block/ruby_block.json"
         ]
       }
     },
@@ -87,14 +87,14 @@
       "registry_name": "rubyore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/main_mod/models/item/rubyore.json",
-          "src/main/resources/assets/main_mod/models/block/rubyore.json",
           "src/main/java/net/mcreator/mainmod/block/RubyoreBlock.java",
-          "src/main/resources/data/main_mod/loot_tables/blocks/rubyore.json",
-          "src/main/resources/data/main_mod/forge/biome_modifier/rubyore_biome_modifier.json",
           "src/main/resources/data/main_mod/worldgen/placed_feature/rubyore.json",
+          "src/main/resources/assets/main_mod/blockstates/rubyore.json",
+          "src/main/resources/assets/main_mod/models/block/rubyore.json",
           "src/main/resources/data/main_mod/worldgen/configured_feature/rubyore.json",
-          "src/main/resources/assets/main_mod/blockstates/rubyore.json"
+          "src/main/resources/data/main_mod/forge/biome_modifier/rubyore_biome_modifier.json",
+          "src/main/resources/assets/main_mod/models/item/rubyore.json",
+          "src/main/resources/data/main_mod/loot_tables/blocks/rubyore.json"
         ]
       }
     },
@@ -173,8 +173,8 @@
       "registry_name": "gnomecloth",
       "metadata": {
         "files": [
-          "src/main/resources/assets/main_mod/models/item/gnomecloth.json",
-          "src/main/java/net/mcreator/mainmod/item/GnomeclothItem.java"
+          "src/main/java/net/mcreator/mainmod/item/GnomeclothItem.java",
+          "src/main/resources/assets/main_mod/models/item/gnomecloth.json"
         ]
       }
     },
@@ -187,9 +187,9 @@
       "registry_name": "water_shrine",
       "metadata": {
         "files": [
+          "src/main/resources/data/main_mod/worldgen/template_pool/water_shrine.json",
           "src/main/resources/data/main_mod/worldgen/structure_set/water_shrine.json",
-          "src/main/resources/data/main_mod/worldgen/structure/water_shrine.json",
-          "src/main/resources/data/main_mod/worldgen/template_pool/water_shrine.json"
+          "src/main/resources/data/main_mod/worldgen/structure/water_shrine.json"
         ]
       }
     },
