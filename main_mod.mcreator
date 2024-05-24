@@ -3,6 +3,7 @@
     {
       "name": "Ruby",
       "type": "item",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby",
