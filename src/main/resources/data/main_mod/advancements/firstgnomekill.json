@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "main_mod:gnome_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.firstgnomekill.title"
+    },
+    "description": {
+      "translate": "advancements.firstgnomekill.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "firstgnomekill_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

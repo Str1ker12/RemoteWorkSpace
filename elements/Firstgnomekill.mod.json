@@ -1,0 +1,25 @@
+{
+  "_fv": 60,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "F*CK THE GNOMES!",
+    "achievementDescription": "Kill your first gnome",
+    "achievementIcon": {
+      "value": "CUSTOM:Gnome.spawn_egg"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "adventure/adventuring_time"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"137\" y=\"67\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

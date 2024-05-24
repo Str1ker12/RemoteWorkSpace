@@ -3,6 +3,7 @@
     {
       "name": "Ruby",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruby",
@@ -12,6 +13,87 @@
           "src/main/resources/assets/main_mod/models/item/ruby.json"
         ]
       }
+    },
+    {
+      "name": "Deserttower",
+      "type": "structure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deserttower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/main_mod/worldgen/template_pool/deserttower.json",
+          "src/main/resources/data/main_mod/worldgen/structure/deserttower.json",
+          "src/main/resources/data/main_mod/worldgen/structure_set/deserttower.json"
+        ]
+      }
+    },
+    {
+      "name": "Gnomecloth",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnomecloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main_mod/models/item/gnomecloth.json",
+          "src/main/java/net/mcreator/mainmod/item/GnomeclothItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Gnome",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnome",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/main_mod/models/item/gnome_spawn_egg.json",
+          "src/main/java/net/mcreator/mainmod/client/renderer/GnomeRenderer.java",
+          "src/main/resources/data/main_mod/forge/biome_modifier/gnome_biome_modifier.json",
+          "src/main/java/net/mcreator/mainmod/entity/GnomeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "GnomeEntityDies",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnome_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mainmod/procedures/GnomeEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Firstgnomekill",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firstgnomekill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/main_mod/advancements/firstgnomekill.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -19,7 +101,12 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
-      "item.main_mod.ruby": "Ruby"
+      "item.main_mod.ruby": "Ruby",
+      "item.main_mod.gnomecloth": "Teared up gnome hat",
+      "item.main_mod.gnome_spawn_egg": "Gnome Spawn Egg",
+      "advancements.firstgnomekill.title": "F*CK THE GNOMES!",
+      "entity.main_mod.gnome": "Gnome",
+      "advancements.firstgnomekill.descr": "Kill your first gnome"
     }
   },
   "foldersRoot": {
