@@ -24,7 +24,7 @@
     "modelLayers": [
       {
         "model": "Default",
-        "texture": "gnome_texture1.png",
+        "texture": "gnome_texture.png",
         "glow": false
       }
     ],

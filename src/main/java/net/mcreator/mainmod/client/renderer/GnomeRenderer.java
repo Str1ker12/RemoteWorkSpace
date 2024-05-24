@@ -19,7 +19,7 @@ public class GnomeRenderer extends MobRenderer<GnomeEntity, ModelGnome<GnomeEnti
 	public GnomeRenderer(EntityRendererProvider.Context context) {
 		super(context, new ModelGnome(context.bakeLayer(ModelGnome.LAYER_LOCATION)), 1f);
 		this.addLayer(new RenderLayer<GnomeEntity, ModelGnome<GnomeEntity>>(this) {
-			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("main_mod:textures/entities/gnome_texture1.png");
+			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("main_mod:textures/entities/gnome_texture.png");
 
 			@Override
 			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, GnomeEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
