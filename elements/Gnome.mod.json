@@ -21,13 +21,7 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
-    "modelLayers": [
-      {
-        "model": "Default",
-        "texture": "gnome_texture1.png",
-        "glow": false
-      }
-    ],
+    "modelLayers": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
